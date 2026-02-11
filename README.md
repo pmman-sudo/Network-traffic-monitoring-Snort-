@@ -1,4 +1,4 @@
-# Network-traffic-monitoring-with-snort
+# IDS/IPS-with-snort
 
 # Objective
 
@@ -204,6 +204,6 @@ I wrote a rule to detect UDP traffic where the source and destination IP are ide
 * Rule Logic: **alert udp any any -> any any (msg:"Same IP Loop"; sameip; sid:1000004; rev:1;)**
 * Finding: 7 packets detected.
 
-# Summmary
+# Summary
 This lab reinforced my ability to deploy Snort not just as a passive listener, but as an active forensic tool. I successfully demonstrated proficiency in navigating Snort’s CLI, interpreting binary logs, and writing precise Snort rules to isolate specific network anomalies. These skills are directly applicable to real-world SOC tasks such as triage, log analysis, and signature development.
 
